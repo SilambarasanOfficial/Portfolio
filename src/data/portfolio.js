@@ -37,7 +37,7 @@ export const skillCategories = [
     category: "Frontend & Mobile",
     icon: "Monitor",
     color: "#06b6d4",
-    skills: ["Angular", "React Native CLI", "Android", "iOS"],
+    skills: ["Angular", "React Native CLI", "Android", "iOS", "Html"],
   },
   {
     category: "AI / ML",
