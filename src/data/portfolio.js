@@ -10,7 +10,7 @@ export const personalInfo = {
   ],
   tagline: "Architecting high-performance systems — from schema design to deployment.",
   email: "silambarasanofficial001@gmail.com",
-  phone: "+91 6381115389",
+  phone: "+91 6384349387",
   phone2: "+91 6384349387",
   location: "Akshayanagar, Bengaluru, Karnataka",
   permanentLocation: "P.velur, Namakkal, Tamil Nadu",
