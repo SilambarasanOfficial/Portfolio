@@ -15,7 +15,7 @@ export const personalInfo = {
   location: "Akshayanagar, Bengaluru, Karnataka",
   permanentLocation: "P.velur, Namakkal, Tamil Nadu",
   github: "https://github.com/silambarasan",
-  linkedin: "https://linkedin.com/in/silambarasan",
+  linkedin: "https://www.linkedin.com/in/silambarasan-vadivelu-029597252?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   summary:
     "Results-driven Senior Software Developer with 3+ years of experience architecting high-performance backend systems, AI-powered analytics engines, enterprise ERP platforms, and cross-platform mobile applications. Promoted from Junior to Senior Developer, demonstrating rapid technical growth and the ability to own complex, multi-product delivery. Specializes in Python, PHP, Django, Angular, React and JavaScript ecosystems with deep expertise in LLM integration, scalable API design, and cloud infrastructure.",
 };
