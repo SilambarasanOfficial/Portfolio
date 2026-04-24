@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const l = require\\('./node_modules/lucide-react/dist/cjs/lucide-react.js'\\); const missing = ['Sparkles','Plug','Brain','Cloud'].filter\\(k => !l[k]\\); console.log\\('Missing:', missing\\)\")",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(pkill -f \"vite\")"
+    ]
+  }
+}
