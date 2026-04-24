@@ -59,6 +59,9 @@ export default function Hero() {
         justifyContent: 'center',
         overflow: 'hidden',
         backgroundColor: dark ? '#030712' : '#f8fafc',
+        paddingTop: '80px',
+        paddingBottom: '40px',
+        boxSizing: 'border-box',
       }}
     >
       {/* ── Floating skill badges ── */}
@@ -70,7 +73,7 @@ export default function Hero() {
       <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', width: '600px', height: '600px', borderRadius: '50%', background: 'rgba(139,92,246,0.04)', filter: 'blur(100px)', pointerEvents: 'none', zIndex: 2 }} />
 
       {/* ── Main content ── */}
-      <div style={{ position: 'relative', zIndex: 10, width: '100%', maxWidth: '1100px', margin: '0 auto', padding: '0 24px', textAlign: 'center' }}>
+      <div style={{ position: 'relative', zIndex: 10, width: '100%', maxWidth: '1100px', margin: '0 auto', padding: '0 16px', textAlign: 'center' }}>
 
         {/* Profile avatar with spinning gradient ring */}
         <motion.div
@@ -214,6 +217,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.65 }}
+          className="stats-grid"
           style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0', maxWidth: '700px', margin: '0 auto', borderRadius: '20px', overflow: 'hidden', background: dark ? 'rgba(255,255,255,0.04)' : 'rgba(255,255,255,0.85)', border: dark ? '1px solid rgba(255,255,255,0.09)' : '1px solid #e2e8f0', backdropFilter: 'blur(16px)' }}
         >
           {stats.map((s, i) => (

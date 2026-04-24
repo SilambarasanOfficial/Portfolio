@@ -9,6 +9,7 @@
 html {
   scroll-behavior: smooth;
   width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -22,6 +23,7 @@ body {
 #root {
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 /* Custom scrollbar */
@@ -157,4 +159,35 @@ body.custom-cursor-active * {
 .tilt-card {
   transform-style: preserve-3d;
   will-change: transform;
+}
+
+/* ── Mobile responsive helpers ───────────────────────────────────────────── */
+
+/* Stats bar: 4 columns → 2 columns on small screens */
+@media (max-width: 540px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Contact name/email row: 2 columns → 1 column on mobile */
+@media (max-width: 560px) {
+  .form-row-2col {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Section inner padding: reduce on mobile */
+@media (max-width: 640px) {
+  .section-inner {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+
+/* Pre code block: don't overflow, wrap instead */
+pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: auto;
 }

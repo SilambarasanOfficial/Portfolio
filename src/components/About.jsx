@@ -19,7 +19,7 @@ export default function About() {
 
   return (
     <section id="about" style={{ width: '100%', backgroundColor: bg, padding: '100px 0' }}>
-      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 32px' }}>
+      <div className="section-inner" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 32px' }}>
         <SectionTitle
           label="About Me"
           title="Who I Am"
@@ -27,7 +27,7 @@ export default function About() {
           light={!dark}
         />
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(480px, 1fr))', gap: '64px', alignItems: 'center' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(480px, 100%), 1fr))', gap: '48px', alignItems: 'center' }}>
 
           {/* Left column */}
           <motion.div
@@ -103,7 +103,7 @@ export default function About() {
               {personalInfo.summary}
             </p>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(200px, 100%), 1fr))', gap: '16px' }}>
               {highlights.map((h, i) => (
                 <motion.div
                   key={i}

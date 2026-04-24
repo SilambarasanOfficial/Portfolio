@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <footer style={{ width: '100%', backgroundColor: dark ? '#030712' : '#ffffff', borderTop: dark ? '1px solid rgba(255,255,255,0.06)' : '1px solid #f1f5f9', padding: '32px 0' }}>
-      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 32px', display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '16px' }}>
+      <div className="section-inner" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 32px', display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '16px' }}>
 
         {/* Brand */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>

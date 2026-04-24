@@ -10,7 +10,7 @@ export default function Experience() {
 
   return (
     <section id="experience" style={{ width: '100%', backgroundColor: bg, padding: '100px 0' }}>
-      <div style={{ maxWidth: '960px', margin: '0 auto', padding: '0 32px' }}>
+      <div className="section-inner" style={{ maxWidth: '960px', margin: '0 auto', padding: '0 32px' }}>
         <SectionTitle
           label="Work Experience"
           title="Where I've Worked"
@@ -48,7 +48,7 @@ export default function Experience() {
                 <motion.div
                   whileHover={{ x: 5, transition: { duration: 0.2 } }}
                   style={{
-                    padding: '32px 36px',
+                    padding: '24px 20px',
                     borderRadius: '20px',
                     background: dark ? 'rgba(255,255,255,0.04)' : '#ffffff',
                     border: dark ? '1px solid rgba(255,255,255,0.09)' : '1px solid #e2e8f0',

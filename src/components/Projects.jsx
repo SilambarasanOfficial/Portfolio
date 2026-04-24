@@ -34,7 +34,7 @@ export default function Projects() {
 
   return (
     <section id="projects" style={{ width: '100%', backgroundColor: bg, padding: '100px 0' }}>
-      <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 32px' }}>
+      <div className="section-inner" style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 32px' }}>
         <SectionTitle
           label="Key Projects"
           title="What I've Built"
@@ -80,7 +80,7 @@ export default function Projects() {
         {/* Project grid */}
         <motion.div
           layout
-          style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '28px' }}
+          style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(340px, 100%), 1fr))', gap: '28px' }}
         >
           <AnimatePresence mode="popLayout">
             {filtered.map((p, i) => (

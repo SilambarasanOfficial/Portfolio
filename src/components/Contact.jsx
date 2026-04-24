@@ -44,7 +44,7 @@ export default function Contact() {
 
   return (
     <section id="contact" style={{ width: '100%', backgroundColor: bg, padding: '100px 0' }}>
-      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 32px' }}>
+      <div className="section-inner" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 32px' }}>
         <SectionTitle
           label="Get In Touch"
           title="Let's Work Together"
@@ -52,7 +52,7 @@ export default function Contact() {
           light={!dark}
         />
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(420px, 1fr))', gap: '56px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(420px, 100%), 1fr))', gap: '40px' }}>
 
           {/* Left: info */}
           <motion.div
@@ -123,7 +123,7 @@ export default function Contact() {
               onSubmit={handleSubmit}
               style={{ padding: '36px', borderRadius: '24px', background: dark ? 'rgba(255,255,255,0.04)' : '#ffffff', border: dark ? '1px solid rgba(255,255,255,0.09)' : '1px solid #e2e8f0', boxShadow: dark ? 'none' : '0 4px 24px rgba(0,0,0,0.06)' }}
             >
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
+              <div className="form-row-2col" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
                 <div>
                   <label style={{ display: 'block', fontSize: '0.78rem', fontWeight: 600, color: dark ? '#9ca3af' : '#64748b', marginBottom: '8px' }}>Name</label>
                   <input

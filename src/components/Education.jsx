@@ -12,7 +12,7 @@ export default function Education() {
 
   return (
     <section id="education" style={{ width: '100%', backgroundColor: bg, padding: '100px 0' }}>
-      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 32px' }}>
+      <div className="section-inner" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 32px' }}>
         <SectionTitle
           label="Education & Achievements"
           title="Academic Background"
@@ -20,7 +20,7 @@ export default function Education() {
           light={!dark}
         />
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(460px, 1fr))', gap: '56px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(460px, 100%), 1fr))', gap: '40px' }}>
 
           {/* Education column */}
           <div>

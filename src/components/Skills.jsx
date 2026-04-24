@@ -12,7 +12,7 @@ export default function Skills() {
 
   return (
     <section id="skills" style={{ width: '100%', backgroundColor: bg, padding: '100px 0' }}>
-      <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 32px' }}>
+      <div className="section-inner" style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 32px' }}>
         <SectionTitle
           label="Technical Skills"
           title="My Expertise"

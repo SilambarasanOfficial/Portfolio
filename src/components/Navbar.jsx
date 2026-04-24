@@ -68,7 +68,7 @@ export default function Navbar() {
           padding: scrolled ? '14px 0' : '22px 0',
         }}
       >
-        <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <div className="section-inner" style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
           {/* Logo */}
           <motion.a
