@@ -62,7 +62,7 @@ export default function Contact() {
             transition={{ duration: 0.65 }}
           >
             <p style={{ fontSize: '1rem', lineHeight: 1.8, color: dark ? '#9ca3af' : '#64748b', marginBottom: '40px' }}>
-              I'm currently open to new opportunities. Whether it's a full-time role, freelance project,
+              I'm currently open to new opportunities. Whether it's a full-time role,
               or just a conversation about tech — feel free to reach out. I'll get back to you promptly.
             </p>
 
