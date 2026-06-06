@@ -12,7 +12,7 @@ export const personalInfo = {
   email: "silambarasanofficial001@gmail.com",
   phone: "+91 6384349387",
   phone2: "+91 6384349387",
-  location: "Akshayanagar, Bengaluru, Karnataka",
+  location: "Arekere, Bengaluru, Karnataka",
   permanentLocation: "P.velur, Namakkal, Tamil Nadu",
   github: "https://github.com/silambarasan",
   linkedin: "https://www.linkedin.com/in/silambarasan-vadivelu-029597252?utm_source=share_via&utm_content=profile&utm_medium=member_android",
@@ -77,7 +77,7 @@ export const experiences = [
     subtitle: "Full Stack & Mobile Developer",
     company: "Dream & Magic Media Pvt. Ltd.",
     location: "Bengaluru, India",
-    period: "Apr 2023 – Apr 2026",
+    period: "Apr 2023 – May 2026",
     type: "Full-time",
     highlights: [
       "Promoted from Junior to Senior Developer, assuming architectural ownership across 5+ concurrent production systems.",
